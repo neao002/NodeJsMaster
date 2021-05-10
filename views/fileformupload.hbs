@@ -1,0 +1,21 @@
+<h1>Uploading Picture</h1>
+
+
+<form action="/upload/file" method="post" enctype="multipart/form-data">
+  Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit"  name="submit">
+
+  
+</form>
+
+{{#if picture }}
+    <div className="w-20">
+      
+      <img  src="/uploads/{{picture}}" alt="photo">
+    
+    {{/if}}
+    </div>
+      
+
+ 

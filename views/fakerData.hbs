@@ -1,0 +1,37 @@
+ <form action="/fakerData" method="POST" class="row g-3">
+    <div class="col-md-6 ">
+      <label for="inputEmail4" class="form-label">Email</label>
+      
+      <input type="email" class="form-control" id="inputEmail4" name="email" placeholder={{userData.name.Email}} />
+
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="number" class="form-control" id="inputPassword4" name="password"  placeholder={{userData.name.password}}
+        />
+    </div>
+    <div class="col-6">
+      <label for="inputName" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder={{userData.name.secondName}} />
+    </div>
+    <div class="col-md-6">
+      <label for="inputCountry" class="form-label">Country</label>
+      <input type="text" class="form-control" id="inputCountry" placeholder={{userData.name.country}} />
+    </div>
+    
+    <div class="col-md-6">
+      <label for="inputAdress" class="form-label">Adress</label>
+      <input type="text" class="form-control" id="inputAdress" name="address" placeholder={{userData.name.adress}}   />
+      
+    </div>
+     <img class="mx-5 col-md-4"  src={{userData.name.image}} alt="">
+    
+    </div>
+    <div class="col-sm-10 mt-2 mb-4 mx-5">
+      <button style="width: 190px;" type="submit" class="btn btn-primary">Generator</button>
+    </div>
+  </form>
+ 
+
+  
+</div>
